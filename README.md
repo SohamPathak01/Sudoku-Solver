@@ -1,14 +1,14 @@
-## Sudoku-Solver
-## Demo
+# Sudoku-Solver
+# Demo
 
-# Manual Solving 
+## Manual Solving 
 
 
 https://user-images.githubusercontent.com/123369145/215581849-a24fbade-7d4d-47f5-849a-930f2887bae7.mp4
 
 
 
-# Auto Solving Using Backtracking
+## Auto Solving Using Backtracking
 
 
 
