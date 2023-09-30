@@ -95,10 +95,11 @@ class Grid:
             row,col = find
 
         for i in range(1,10):
-            self.model[row][col]=i
+            if self.valid(i, row, col):
+                self.model[row][col]=i
 
-            if self.solve():
-                return True
+                if self.solve():
+                    return True
 
             self.model[row][col] = 0
 
